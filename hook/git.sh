@@ -1,6 +1,6 @@
 WEB_PATH='../' 
-WEB_USER='root'
-WEB_USERGROUP='root'
+WEB_USER='apache'
+WEB_USERGROUP='apache'
  
 echo "Start deployment"
 cd $WEB_PATH
