@@ -1,0 +1,84 @@
+[2019-08-09 11:56:02]Token mismatch!
+log
+[2019-08-09 13:17:27]
+log
+[2019-08-09 14:37:41]
+log
+[2019-08-09 14:41:30]Token mismatch!
+log
+[2019-08-09 14:42:36]
+log
+[2019-08-09 14:44:23]
+log
+[2019-08-09 14:57:44]
+log
+[2019-08-09 14:58:27]
+log
+[09-Aug-2019 15:58:48 Asia/Shanghai] PHP Notice:  Undefined variable: key in /var/www/html/hook/hook.php on line 41
+[09-Aug-2019 15:58:48 Asia/Shanghai] PHP Notice:  Undefined variable: item in /var/www/html/hook/hook.php on line 41
+[2019-08-09 15:58:44]# 
+
+log
+[09-Aug-2019 16:00:32 Asia/Shanghai] PHP Notice:  Undefined variable: key in /var/www/html/hook/hook.php on line 41
+[09-Aug-2019 16:00:32 Asia/Shanghai] PHP Notice:  Undefined variable: item in /var/www/html/hook/hook.php on line 41
+[2019-08-09 16:00:28]# 
+
+log
+[2019-08-09 16:02:54]# 
+
+log
+[2019-08-09 16:06:47]# 
+
+log
+[09-Aug-2019 16:10:42 Asia/Shanghai] PHP Notice:  Undefined variable: command in /var/www/html/hook/hook.php on line 42
+[09-Aug-2019 16:10:42 Asia/Shanghai] PHP Warning:  exec(): Cannot execute a blank command in /var/www/html/hook/hook.php on line 42
+[09-Aug-2019 16:10:42 Asia/Shanghai] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/hook/hook.php on line 44
+[2019-08-09 16:10:39]
+
+log
+[2019-08-09 16:16:04]Finished.
+#0 Start deployment
+#1 pulling source code...
+#2 HEAD is now at c5bd938 *
+#3 Updating c5bd938..2057e12
+#4 Fast-forward
+#5  test.txt | 4 ++--
+#6  1 file changed, 2 insertions(+), 2 deletions(-)
+#7 M	masco
+#8 M	play
+#9 M	python
+#10 changing permissions...
+#11 Finished.
+
+log
+[2019-08-09 16:16:22]Finished.
+#0 Start deployment
+#1 pulling source code...
+#2 HEAD is now at 2057e12 7
+#3 Updating 2057e12..26b55fc
+#4 Fast-forward
+#5  test.txt | 2 --
+#6  1 file changed, 2 deletions(-)
+#7 M	masco
+#8 M	play
+#9 M	python
+#10 changing permissions...
+#11 Finished.
+
+log
+[2019-08-13 16:50:31]Finished.
+#0 Start deployment
+#1 pulling source code...
+#2 HEAD is now at 26b55fc 6
+#3 Removing centos.py
+#4 Updating 26b55fc..38c0503
+#5 Fast-forward
+#6  mysql_install.py | 262 ++++++++++++++++++++++++++-----------------------------
+#7  1 file changed, 122 insertions(+), 140 deletions(-)
+#8 M	masco
+#9 M	play
+#10 M	python
+#11 changing permissions...
+#12 Finished.
+
+log
