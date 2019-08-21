@@ -2,7 +2,7 @@
 #coding=utf-8
 #User Larryd 
 #time 2019/06/27
-#获取本机ip
+#获取本机IP
 import socket
 def get_host_ip():	
 	try:
