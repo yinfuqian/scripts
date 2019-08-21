@@ -18,7 +18,7 @@ print '\n'.join(list(diff))
 ======================================================================================================================
 网页显示
 #!/usr/bin/python#encoding=utf8import difflibtext1 = """text1: This module provides classes and functions for comparing seqences. including HTmland context and unified diffs and string"""text1_lines = text1.splitlines()text2 = """text2: This module provodes classes and functions for Comoaring sequences.including HTMKand context and unfied diffs"""text2_lines = text2.splitlines()d = difflib.HtmlDiff()print d.make_file(text1_lines, text2_lines)********************************************************************************************************python t.py > test.htmlURL 访问
-对比nginx配置文件差异
+#对比nginx配置文件差异
 
 #!/usr/bin/python
 #encoding=utf8
