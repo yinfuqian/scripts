@@ -1,4 +1,5 @@
 #!/bini/bash
+#web hook
 WEB_PATH='/var/www/html'  
 WEB_USER='apache'
 WEB_USERGROUP='apache'
