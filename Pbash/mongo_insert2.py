@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #coding=utf-8
-
+#mongo批量插入
 import multiprocessing,random,string  
 
 import time,datetime
