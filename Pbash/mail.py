@@ -2,7 +2,7 @@
 #coding=utf-8
 #User Larryd 
 #time 2019/06/27
-#发送邮件
+#发送邮件功能实现
 import yagmail
 import sys
 import os 
