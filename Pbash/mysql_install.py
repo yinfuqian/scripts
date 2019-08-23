@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #coding=utf-8
 #Larryd.Yin
+#mysql安装
 import commands
 import os  
 import shutil
