@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #coding=utf-8
 #Yin
+#lamp安装
 import sys
 import shutil
 import commands
