@@ -3,7 +3,7 @@
 import dns.resolver
 import os
 import httplib
-#DNS 轮询一个域名多个IP 实现负载均衡监控脚本
+#DNS 轮询一个域名多个IP   实现负载均衡监控脚本
 iplist = []
 appdomain = "www.baidu.com"
 def get_iplist(domain=""):# 域名函数，解析ip追加到iplist
