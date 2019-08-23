@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #coding=utf-8
+#mongo查询时间消耗
 import time,datetime
 import pymongo
 from pymongo import MongoClient
