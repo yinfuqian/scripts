@@ -69,7 +69,7 @@ def install():
 			else:
 				sys.exit()		
 	else:
-		print "输入错误，退出程序···"
+		print "输入错误，退出程序····"
 		sys.exit()
 if path_re == True:
 	install()
