@@ -3,6 +3,7 @@
 #backup mysql
 #创建者 Larryd
 #时间 2019/06/24
+#mysql 的备份和恢复
 print ("##############################################")
 print ("#          在执行此脚本前请先执行            #")
 print ("######       pip install pymysql      ########")
