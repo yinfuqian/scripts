@@ -1,6 +1,7 @@
 #!/usr/bin/python 
 #coding=utf-8
 #grant mysql 
+#mysql 用户授权脚本
 #创建者 Larryd
 #时间 2019/06/21
 print "##############################################"
