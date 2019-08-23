@@ -1,7 +1,7 @@
 #!/bin/bash
 #Larryd
 #2019.8.6
-#Zabbix Install 
+#Zabbix 安装
 #环境检查
 mp=`netstat -tanlp |grep mysql |awk -F : '{print $4 }'`
 release=`cat /etc/redhat-release`
