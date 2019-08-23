@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #coding=utf-8
-
+#mongo 批量插入
 import time,datetime
 
 import random
