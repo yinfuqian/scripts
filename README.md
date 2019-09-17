@@ -1,6 +1,6 @@
 目录功能
 
-cxk ------Web game  
+cxk   ------Web Game
 
 masico ----- 图片马赛克
 
