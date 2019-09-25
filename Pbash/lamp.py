@@ -18,7 +18,7 @@ dir_re = (os.path.isdir(h_path))
 m2_name = "mysql-5.6.44-linux-glibc2.12-x86_64.tar.gz"
 m_p = "/usr/local/mysql"
 m_fp = "/etc/my.cnf"
-
+#mysql 安装
 def Minstall():
 	os.system("cd /usr/local")
 	print "=============正在解压安装包============"
@@ -62,6 +62,7 @@ def Minstall():
 	with open(f2,"a") as h2_file:
 		h2_file.write('export PATH=$PATH:/usr/local/mysql/bin')
 	Apache()
+#判断安装包是否存在
 def pags():
 	os.chdir("/usr/local")
 	if os.path.isfile(h_name) == True:
@@ -139,6 +140,7 @@ def Apache():
 			else:
 				Aprint()
 	php()
+#mysql 依赖安装以及调用安装函数
 def mysql6():
 	os.chdir (in_path)
 	os.system("cd /usr/local")
